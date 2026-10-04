@@ -17,13 +17,13 @@ public class HelloController {
 
         float bmi =  w /(h*h);
         if(bmi < 18.5){
-            lblresult.setText("podvaha");
+            lblresult.setText("BMI: "+ bmi + " Podvaha");
         }else if (18.5 <= bmi && bmi <= 24.9) {
-            lblresult.setText("normalna");
+            lblresult.setText("BMI: "+ bmi + " Normalna");
         } else if (25 <= bmi && bmi <= 29.9) {
-            lblresult.setText("nadvaha");
+            lblresult.setText("BMI: "+ bmi + " Nadvaha");
         }else {
-            lblresult.setText("obezita");
+            lblresult.setText("BMI: "+ bmi + " Obezita");
         }
     }
 }
