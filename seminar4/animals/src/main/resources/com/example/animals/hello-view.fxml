@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.animals.HelloController"
+      prefWidth="720" prefHeight="480">
+    <Button layoutX="10" layoutY="10" text="Pridať Herbivore" onAction="#addHerbivore"/>
+    <Button layoutX="145" layoutY="10" text="Pridať Carnivore" onAction="#addCarnivore"/>
+    <Button layoutX="280" layoutY="10" text="Zmeniť smer Carnivore" onAction="#reverseCarnivores"/>
+    <Button fx:id="stopButton" layoutX="455" layoutY="10" text="Zastaviť" onAction="#toggleStop"/>
+</Pane>
