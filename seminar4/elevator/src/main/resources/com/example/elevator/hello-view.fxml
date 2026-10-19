@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.elevator.HelloController">
+    <Label fx:id="infoLabel" layoutX="150.0" layoutY="20.0" text="Aktuálne poschodie: 0">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+
+    <Label layoutX="50.0" layoutY="50.0" text="Poschodie 8" />
+    <Label layoutX="50.0" layoutY="100.0" text="Poschodie 7" />
+    <Label layoutX="50.0" layoutY="150.0" text="Poschodie 6" />
+    <Label layoutX="50.0" layoutY="200.0" text="Poschodie 5" />
+    <Label layoutX="50.0" layoutY="250.0" text="Poschodie 4" />
+    <Label layoutX="50.0" layoutY="300.0" text="Poschodie 3" />
+    <Label layoutX="50.0" layoutY="350.0" text="Poschodie 2" />
+    <Label layoutX="50.0" layoutY="400.0" text="Poschodie 1" />
+    <Label layoutX="50.0" layoutY="450.0" text="Poschodie 0" />
+</Pane>
